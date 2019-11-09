@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ElKarma.Views.ContactUsPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <Image Source="ContactUs.jpeg" WidthRequest="100" HeightRequest="150" Margin="15"/>
+            <StackLayout Margin="10,5,0,5">
+                <Label Text="Tel: +1 714-709-4300" TextColor="Black" Margin="5"/>
+                <Label Text="Fax: +1 925-226-4034" TextColor="Black" Margin="5"/>
+                <Label Text="Mail: info@alkarmatv.com" TextColor="Black" Margin="5"/>
+                <Label Text="Postal Code: P.O.BX 3610 Seal Beach,CA 90740" TextColor="Black" Margin="5"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

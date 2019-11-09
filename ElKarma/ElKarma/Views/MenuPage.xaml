@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ElKarma.Views.MenuPage"
+             Title="Menu">
+    <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#910319"  >
+        <StackLayout HeightRequest="150" BackgroundColor="Transparent" Padding="35" >
+            <Frame  BackgroundColor="White" WidthRequest="90" HeightRequest="85"   CornerRadius="60" IsClippedToBounds="True" Padding="0" HorizontalOptions="Center">
+                <Image x:Name="ima" Source="avtar.png"  VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="70" HeightRequest="70"/>
+            </Frame>
+        </StackLayout>
+
+        <ListView x:Name="ListViewMenu" HasUnevenRows="False" BackgroundColor="Transparent"  Margin="0" SeparatorVisibility="Default" SeparatorColor="Black" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <!--<StackLayout Orientation="Vertical" Padding="0">-->
+                        <StackLayout Padding="10" Orientation="Horizontal" Margin="0">
+                            <Image Source="{Binding Icon}" WidthRequest="30" HeightRequest="30" />
+                            <Label Text="{Binding Title}" FontSize="16" TextColor="White"/>
+                            <!--<Label Text=">"  FontSize="18"  HorizontalOptions="EndAndExpand" TextColor="White"/>-->
+                            <Image Source="shape_2_copy_4.png"  HorizontalOptions="EndAndExpand"/> 
+                        </StackLayout>
+                            <!--<Label Margin="0"    Text="Black" HeightRequest="5" HorizontalOptions="FillAndExpand"/>
+                        </StackLayout>-->
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
