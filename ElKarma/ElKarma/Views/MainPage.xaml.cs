@@ -1,4 +1,6 @@
 ﻿using ElKarma.Models;
+using ElKarma.Shared;
+using ElKarma.Views.Settings_Views;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -15,11 +17,11 @@ namespace ElKarma.Views
         {
             InitializeComponent();
 
-            MasterBehavior = MasterBehavior.Popover;
-
-            MenuPages.Add((int)MenuItemType.Home, (NavigationPage)Detail);
+            MasterBehavior = MasterBehavior.Default;
            
+            MenuPages.Add((int)MenuItemType.Home, (NavigationPage)Detail);
         }
+       
 
         public  void NavigateFromMenu(int id)
         {
@@ -36,6 +38,9 @@ namespace ElKarma.Views
                     break;
                 case (int)MenuItemType.Satalite:
                      Detail.Navigation.PushAsync((Page)Activator.CreateInstance(typeof(SatlitePage)));
+                    break;
+                case (int)MenuItemType.Setting:
+                     Detail.Navigation.PushAsync((Page)Activator.CreateInstance(typeof(SettingsLang)));
                     break;
             }
             //if (Device.RuntimePlatform == Device.Android)

@@ -1,4 +1,5 @@
-﻿using ElKarma.ViewModels;
+﻿using ElKarma.Shared;
+using ElKarma.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,8 +24,12 @@ namespace ElKarma.Views
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            ItemsListView.ItemsSource = vm.GetItems();
+            var lang = Global.Lang;
+            ItemsListView.ItemsSource = vm.GetItems(lang);
+           
+            SatPage.FlowDirection = FlowDirection.LeftToRight;
             SatelliteT.Text = "Satellite Coverage";
+
             //if (viewModel.Items.Count == 0)
             //    viewModel.LoadItemsCommand.Execute(null);
         }

@@ -16,8 +16,20 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\LivePage_ar.xaml.cs">
+      <DependentUpon>LivePage_ar.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\LivePage.xaml.cs">
       <DependentUpon>LivePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\MainPage_ar.xaml.cs">
+      <DependentUpon>MainPage_ar.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\MenuPage_ar.xaml.cs">
+      <DependentUpon>MenuPage_ar.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\SatlitePage_ar.xaml.cs">
+      <DependentUpon>SatlitePage_ar.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -32,6 +44,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\SatlitePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Settings Views\SettingsLang.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

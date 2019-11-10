@@ -9,8 +9,8 @@ namespace ElKarma.Models
         Home,
         Satalite,
         Contact,
-        About
-       
+        About,
+        Setting
     }
     public class HomeMenuItem
     {

@@ -2,17 +2,19 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using ElKarma.Views;
+using ElKarma.Shared;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace ElKarma
 {
     public partial class App : Application
     {
+         
 
         public App()
         {
             InitializeComponent();
-
+            Global.Lang = "e";
 
             MainPage = new MainPage();
         }

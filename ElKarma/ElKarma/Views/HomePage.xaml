@@ -4,7 +4,7 @@
              x:Class="ElKarma.Views.HomePage"
              x:Name="BrowseItemsPage">
   
-        <Grid Margin="5" RowSpacing="10" BackgroundColor="White">
+        <Grid x:Name="Container" Margin="5" RowSpacing="10" BackgroundColor="White" >
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
@@ -16,28 +16,28 @@
             </Grid.RowDefinitions>
             <StackLayout Grid.Column="0" Grid.Row="0">
                 <Image Source="unnamed.png" WidthRequest="60" HeightRequest="60" HorizontalOptions="CenterAndExpand"/>
-                <Label Text="Live" HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="Live" HorizontalOptions="CenterAndExpand"/>
             <StackLayout.GestureRecognizers>
                 <TapGestureRecognizer Tapped="Live_Tapped"/>
             </StackLayout.GestureRecognizers>
             </StackLayout>
             <StackLayout Grid.Column="1" Grid.Row="0">
                 <Image Source="unnamed.png" WidthRequest="60" HeightRequest="60" HorizontalOptions="CenterAndExpand"/>
-                 <Label Text="Satellite" HorizontalOptions="CenterAndExpand"/>
+                 <Label x:Name="Satellite" HorizontalOptions="CenterAndExpand"/>
             <StackLayout.GestureRecognizers>
                 <TapGestureRecognizer Tapped="Sattlite_Tapped"/>
             </StackLayout.GestureRecognizers>
         </StackLayout>
         <StackLayout Grid.Column="2" Grid.Row="0">
             <Image Source="unnamed.png" WidthRequest="60" HeightRequest="60" HorizontalOptions="CenterAndExpand"/>
-            <Label Text="Contact Us" HorizontalOptions="CenterAndExpand"/>
+            <Label x:Name="Contact" HorizontalOptions="CenterAndExpand"/>
             <StackLayout.GestureRecognizers>
                 <TapGestureRecognizer Tapped="ContactUS_Tapped"/>
             </StackLayout.GestureRecognizers>
         </StackLayout>
         <StackLayout Grid.Column="0" Grid.Row="1">
             <Image Source="unnamed.png" WidthRequest="60" HeightRequest="60" HorizontalOptions="CenterAndExpand"/>
-            <Label Text="About US" HorizontalOptions="CenterAndExpand"/>
+            <Label x:Name="About" HorizontalOptions="CenterAndExpand"/>
             <StackLayout.GestureRecognizers>
                 <TapGestureRecognizer Tapped="AboutUS_Tapped"/>
             </StackLayout.GestureRecognizers>

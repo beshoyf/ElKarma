@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ElKarma.Views.LivePage_ar"
+              Title="{Binding Title}" >
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="Live" >
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout>
+        <ListView x:Name="ItemsListView"  VerticalOptions="FillAndExpand"  HasUnevenRows="true" CachingStrategy="RecycleElement" ItemSelected="OnItemSelected" SeparatorVisibility="None" Margin="0" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame Margin="7,5,7,5" HasShadow="True" CornerRadius="10" Padding="0" HeightRequest="75" >
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="100"/>
+                                </Grid.ColumnDefinitions>
+                                
+                                <Image WidthRequest="50" HeightRequest="55" HorizontalOptions="StartAndExpand" Source="unnamed.png" Margin="0" Grid.Column="0"/>
+                                <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" Grid.Column="1" Padding="0,5,0,0">
+                                    <Label Text="{Binding Text}" LineBreakMode="NoWrap" Style="{DynamicResource ListItemTextStyle}" FontSize="16" FontAttributes="Bold" />
+                                </StackLayout>
+                                <StackLayout Grid.Column="2" Margin="5">
+                                    <Button ClassId="{Binding Id}" x:Name="Listen" Clicked="Listen_Clicked" Text="استماع" Padding="0" BorderRadius="15" WidthRequest="60" HeightRequest="25" BackgroundColor="#910319"  HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand"  FontSize="13" FontAttributes="Italic" TextColor="White"/>
+                                    <Button ClassId="{Binding Id}" x:Name="Watch" Clicked="Watch_Clicked" Text="مشاهده" Padding="0" BorderRadius="15" WidthRequest="60" HeightRequest="25" BackgroundColor="#910319" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand"  FontSize="13" FontAttributes="Italic" TextColor="White"/>
+                                </StackLayout>
+                                
+                            </Grid>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
