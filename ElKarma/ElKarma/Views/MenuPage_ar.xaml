@@ -19,7 +19,7 @@
                             <Image Source="{Binding Icon}" WidthRequest="30" HeightRequest="30" FlowDirection="RightToLeft" />
                             <Label Text="{Binding Title}" FontSize="16" TextColor="White"/>
                             <!--<Label Text=">"  FontSize="18"  HorizontalOptions="EndAndExpand" TextColor="White"/>-->
-                            <Image Source="shape_2_copy_4.png"  HorizontalOptions="EndAndExpand"/> 
+                            <Image Source="shape_right.png"  HorizontalOptions="EndAndExpand" /> 
                         </StackLayout>
                             <!--<Label Margin="0"    Text="Black" HeightRequest="5" HorizontalOptions="FillAndExpand"/>
                         </StackLayout>-->

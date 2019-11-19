@@ -10,6 +10,7 @@ using Xamarin.Forms.Xaml;
 using ElKarma.Models;
 using ElKarma.Views;
 using ElKarma.ViewModels;
+using ElKarma.Shared;
 
 namespace ElKarma.Views
 {
@@ -42,7 +43,8 @@ namespace ElKarma.Views
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            ItemsListView.ItemsSource=lives= viewModel.GetItems();
+            var lang = Global.Lang;
+            ItemsListView.ItemsSource=lives= viewModel.GetItems(lang);
             Live.Text = "Live";
              
             //if (viewModel.Items.Count == 0)

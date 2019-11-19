@@ -2349,10 +2349,13 @@ namespace ElKarma.Droid
 			public const int avtar = 2130771970;
 			
 			// aapt resource value: 0x7F010003
-			public const int contact = 2130771971;
+			public const int background = 2130771971;
 			
 			// aapt resource value: 0x7F010004
-			public const int ContactUs = 2130771972;
+			public const int contact = 2130771972;
+			
+			// aapt resource value: 0x7F010005
+			public const int ContactUs = 2130771973;
 			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
@@ -2372,11 +2375,11 @@ namespace ElKarma.Droid
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F010005
-			public const int email_us = 2130771973;
-			
 			// aapt resource value: 0x7F010006
-			public const int Icon = 2130771974;
+			public const int email_us = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int Icon = 2130771975;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -2909,8 +2912,35 @@ namespace ElKarma.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
-			// aapt resource value: 0x7F010007
-			public const int logout = 2130771975;
+			// aapt resource value: 0x7F010008
+			public const int Logo = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int LogoAU = 2130771977;
+			
+			// aapt resource value: 0x7F010010
+			public const int logout = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int Logo_Main = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int Logo_ME = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int Logo_ME2 = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int Logo_NA1 = 2130771988;
+			
+			// aapt resource value: 0x7F010015
+			public const int Logo_NA2 = 2130771989;
+			
+			// aapt resource value: 0x7F010016
+			public const int Logo_Praise = 2130771990;
+			
+			// aapt resource value: 0x7F010017
+			public const int Logo_US = 2130771991;
 			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
@@ -3011,17 +3041,20 @@ namespace ElKarma.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010008
-			public const int setting = 2130771976;
+			// aapt resource value: 0x7F010018
+			public const int setting = 2130771992;
 			
-			// aapt resource value: 0x7F010009
-			public const int shape_2_copy_4 = 2130771977;
+			// aapt resource value: 0x7F010019
+			public const int shape_2_copy_4 = 2130771993;
 			
-			// aapt resource value: 0x7F010010
-			public const int splashscreen = 2130771984;
+			// aapt resource value: 0x7F010020
+			public const int shape_right = 2130772000;
 			
-			// aapt resource value: 0x7F010011
-			public const int supports = 2130771985;
+			// aapt resource value: 0x7F010021
+			public const int splashscreen = 2130772001;
+			
+			// aapt resource value: 0x7F010022
+			public const int supports = 2130772002;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -3029,17 +3062,17 @@ namespace ElKarma.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010012
-			public const int unnamed = 2130771986;
+			// aapt resource value: 0x7F010023
+			public const int unnamed = 2130772003;
 			
-			// aapt resource value: 0x7F010013
-			public const int video = 2130771987;
+			// aapt resource value: 0x7F010024
+			public const int video = 2130772004;
 			
-			// aapt resource value: 0x7F010014
-			public const int watch = 2130771988;
+			// aapt resource value: 0x7F010025
+			public const int watch = 2130772005;
 			
-			// aapt resource value: 0x7F010015
-			public const int xamarin_logo = 2130771989;
+			// aapt resource value: 0x7F010026
+			public const int xamarin_logo = 2130772006;
 			
 			static Drawable()
 			{

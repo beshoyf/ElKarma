@@ -16,12 +16,12 @@
                         <Frame Margin="7,5,7,5" HasShadow="True" CornerRadius="10" Padding="0" HeightRequest="75" >
                             <Grid>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="60"/>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="100"/>
                                 </Grid.ColumnDefinitions>
-                                
-                                <Image WidthRequest="50" HeightRequest="55" HorizontalOptions="StartAndExpand" Source="unnamed.png" Margin="0" Grid.Column="0"/>
+
+                                <Image WidthRequest="65" HeightRequest="65" HorizontalOptions="FillAndExpand" Source="{Binding Image}" Margin="3" Grid.Column="0" Aspect="AspectFill"/>
                                 <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" Grid.Column="1" Padding="0,5,0,0">
                                     <Label Text="{Binding Text}" LineBreakMode="NoWrap" Style="{DynamicResource ListItemTextStyle}" FontSize="16" FontAttributes="Bold" />
                                 </StackLayout>

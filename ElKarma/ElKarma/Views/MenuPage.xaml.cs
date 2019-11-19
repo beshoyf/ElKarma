@@ -22,7 +22,7 @@ namespace ElKarma.Views
                 new HomeMenuItem {Id = MenuItemType.Satalite, Title="Satellite Coverage",Icon="video.png" ,HasSprator=true },
                 new HomeMenuItem {Id = MenuItemType.Contact, Title="Contact Us",Icon="contact.png",HasSprator=true },
                 new HomeMenuItem {Id = MenuItemType.About, Title="About Us",Icon="supports.png",HasSprator=false },
-                new HomeMenuItem {Id = MenuItemType.Setting, Title="Settings",Icon="setting.png",HasSprator=false }
+                new HomeMenuItem {Id = MenuItemType.Setting, Title="Change language",Icon="setting.png",HasSprator=false }
             };
 
             ListViewMenu.ItemsSource = menuItems;

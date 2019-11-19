@@ -30,7 +30,7 @@ namespace ElKarma.Views
                      Detail.Navigation.PushAsync((Page)Activator.CreateInstance(typeof(LivePage_ar)));
                     break;
                 case (int)MenuItemType.About:
-                     Detail.Navigation.PushAsync((Page)Activator.CreateInstance(typeof(AboutPage)));
+                     Detail.Navigation.PushAsync((Page)Activator.CreateInstance(typeof(AboutPage_ar)));
                     break;
                 case (int)MenuItemType.Contact:
                      Detail.Navigation.PushAsync((Page)Activator.CreateInstance(typeof(ContactUsPage)));

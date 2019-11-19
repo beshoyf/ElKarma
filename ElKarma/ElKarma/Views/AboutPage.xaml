@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ElKarma.Views.AboutPage"
-           
-             Title="{Binding Title}">
-    
- 
-    
-    <ContentPage.Resources>
+             x:Class="ElKarma.Views.AboutPage"             >
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="AboutBar"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Resources> 
         <ResourceDictionary>
             <!--Page Level Resources: Compatible with Xamarin Live Player -->
             <Color x:Key="Primary">#2196F3</Color>
@@ -16,24 +14,45 @@
         </ResourceDictionary>
     </ContentPage.Resources>
     
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-    
-        <ScrollView Grid.Row="1">
-            <StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
-                <Label FontSize="22">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="About" FontAttributes="Bold" FontSize="22" />
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-            </StackLayout>
+        <ScrollView>
+            <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+            <!--<Label  Text="About" FontSize="16" />-->
+            <Label  Text="AlKarma Tv" FontSize="17" FontAttributes="Bold"/>
+            <Label  Text="" FontSize="14">
+                <Label.FormattedText>
+                    <FormattedString >
+                        <Span LineHeight="1.2" Text="Alkarma TV " TextColor="#910319" FontAttributes="Bold" />
+                        <Span Text="is an Arabic Christian Channel purposing to fulfill the Great Commission:" />
+                        <Span FontAttributes="Bold" Text='"Go into all the world and preach the gospel to every creature, making disciples of all nations"'/>
+                        <Span FontAttributes="None" Text=" Mark 16:15."/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label  Text="" FontSize="14" LineHeight="10" >
+                <Label.FormattedText>
+                    <FormattedString >
+                        <Span LineHeight="1.2" Text="Our" FontAttributes="Bold" TextColor="#910319" />
+                        <Span Text=' mission is to reach out to all Arabs with the saving message of the Gospel. We believe that through the Living Word and the work of the Holy Spirit, Jesus Christ has changed, and is still every day changing lives, all over the world.'/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label  Text="" FontSize="14" LineHeight="10" >
+                <Label.FormattedText>
+                    <FormattedString >
+                        <Span LineHeight="1.2" Text="Alkarma TV" FontAttributes="Bold" TextColor="#910319" />
+                        <Span Text=' is a free satellite channel that broadcasts 24 / 7 from satellites that cover North and South America, the Middle East, North Africa, Australia and Europe.Alkarma can also be watched online on personal computers, smartphones, and IPTV Systems.'/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label  Text="" FontSize="14" LineHeight="10" >
+                <Label.FormattedText>
+                    <FormattedString >
+                        <Span LineHeight="1.2" Text='"Him we preach, warning every man and teaching every man in all wisdom, that we may present every man perfect in Christ Jesus"' FontAttributes="Bold"  />
+                        <Span Text=' Colossians 1:28'/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </StackLayout>
         </ScrollView>
-    </Grid>
+
 </ContentPage>

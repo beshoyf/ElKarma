@@ -4,6 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <ApplicationIcon></ApplicationIcon>
     <Win32Resource />
+    <AssemblyName>ElKarma</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -12,10 +13,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Xam.Plugin.Connectivity" Version="3.2.0" />
     <PackageReference Include="Xamarin.Forms" Version="3.3.0.912540" />  
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\AboutPage_ar.xaml.cs">
+      <DependentUpon>AboutPage_ar.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\LivePage_ar.xaml.cs">
       <DependentUpon>LivePage_ar.xaml</DependentUpon>
     </Compile>
@@ -35,6 +40,9 @@
 
   <ItemGroup>
     <EmbeddedResource Update="Views\ContactUsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Error.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\HomePage.xaml">

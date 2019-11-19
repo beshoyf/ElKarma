@@ -1,7 +1,3 @@
-C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\bin\Release\netstandard2.0\ElKarma.deps.json
-C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\bin\Release\netstandard2.0\ElKarma.dll
-C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\bin\Release\netstandard2.0\ElKarma.pdb
-C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\obj\Release\netstandard2.0\ElKarma.csprojAssemblyReference.cache
 C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\obj\Release\netstandard2.0\App.xaml.g.cs
 C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\obj\Release\netstandard2.0\Views\AboutPage.xaml.g.cs
 C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\obj\Release\netstandard2.0\Views\ContactUsPage.xaml.g.cs
@@ -15,5 +11,17 @@ C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\o
 C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\obj\Release\netstandard2.0\ElKarma.AssemblyInfoInputs.cache
 C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\obj\Release\netstandard2.0\ElKarma.AssemblyInfo.cs
 C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\obj\Release\netstandard2.0\Views\Error.xaml.g.cs
+C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\obj\Release\netstandard2.0\Views\LivePage_ar.xaml.g.cs
+C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\obj\Release\netstandard2.0\Views\MainPage_ar.xaml.g.cs
+C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\obj\Release\netstandard2.0\Views\MenuPage_ar.xaml.g.cs
+C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\obj\Release\netstandard2.0\Views\SatlitePage_ar.xaml.g.cs
+C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\obj\Release\netstandard2.0\Views\Settings Views\SettingsLang.xaml.g.cs
+C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\bin\Release\netstandard2.0\ElKarma.deps.json
+C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\bin\Release\netstandard2.0\ElKarma.dll
+C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\bin\Release\netstandard2.0\ElKarma.pdb
 C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\obj\Release\netstandard2.0\ElKarma.dll
 C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\obj\Release\netstandard2.0\ElKarma.pdb
+C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\obj\Release\netstandard2.0\Views\AboutPage_ar.xaml.g.cs
+C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\obj\Release\netstandard2.0\ElKarma.csprojAssemblyReference.cache
+C:\Users\bnassif\Documents\Visual Studio 2017\Projects\ElKarma\ElKarma\ElKarma\obj\Release\netstandard2.0\splash.xaml.g.cs

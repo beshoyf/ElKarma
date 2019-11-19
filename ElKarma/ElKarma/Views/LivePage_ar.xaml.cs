@@ -10,6 +10,8 @@ using Xamarin.Forms.Xaml;
 using ElKarma.Models;
 using ElKarma.Views;
 using ElKarma.ViewModels;
+using ElKarma.Shared;
+using Plugin.Connectivity;
 
 namespace ElKarma.Views
 {
@@ -42,8 +44,9 @@ namespace ElKarma.Views
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            ItemsListView.ItemsSource=lives= viewModel.GetItems();
-            Live.Text = "Live";
+            var lang = Global.Lang;
+            ItemsListView.ItemsSource=lives= viewModel.GetItems(lang);
+            Live.Text = "البث المباشر";
              
             //if (viewModel.Items.Count == 0)
             //    viewModel.LoadItemsCommand.Execute(null);
@@ -54,7 +57,10 @@ namespace ElKarma.Views
             var btn = (Button)sender;
             string id =btn.ClassId.ToString();
             var live = lives.Where(m => m.Id == id).FirstOrDefault();
-            Navigation.PushAsync(new LivePlayer(live.WatchUrl,live.Text));
+            //if (CrossConnectivity.Current.IsConnected)
+                Navigation.PushAsync(new LivePlayer(live.WatchUrl, live.Text));
+            //else
+            //    Navigation.PushAsync(new Error());
         }
 
         private void Listen_Clicked(object sender, EventArgs e)

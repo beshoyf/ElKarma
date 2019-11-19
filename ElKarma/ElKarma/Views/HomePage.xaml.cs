@@ -22,6 +22,7 @@ namespace ElKarma.Views
                 Satellite.Text = "Satellite";
                 Contact.Text = "Contact Us";
                 About.Text = "About Us";
+
             }
             else
             {
@@ -29,6 +30,7 @@ namespace ElKarma.Views
                 Satellite.Text = "التردات";
                 Contact.Text = "الاتصال بنا";
                 About.Text = "من نحن";
+                
                 Container.FlowDirection = FlowDirection.RightToLeft;
             }
 		}
@@ -60,7 +62,12 @@ namespace ElKarma.Views
 
         private void AboutUS_Tapped(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new AboutPage());
+            if (Global.Lang == "e")
+            {
+                Navigation.PushAsync(new AboutPage());
+            }
+            else
+                Navigation.PushAsync(new AboutPage_ar());
         }
         protected override void OnAppearing()
         {

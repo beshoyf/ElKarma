@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ElKarma.Views.AboutPage_ar"             >
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="AboutBar"/>
+    </ContentPage.ToolbarItems>
+    <ScrollView>
+            <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+            <!--<Label  Text="About" FontSize="16" />-->
+            <Label  Text="قناه الكرمه" FontSize="17" FontAttributes="Bold"/>
+            <Label  Text="" FontSize="14" LineHeight="10" >
+                <Label.FormattedText>
+                    <FormattedString >
+                        <Span LineHeight="1.2" Text="قناة الكرمة " TextColor="#910319" FontAttributes="Bold" />
+                        <Span Text="قناة مسيحية ناطقة باللغة العربية تهدف إلى إعلان مجد الله وإلى الكرازة بإنجيل خلاص المسيح للخليقة كلها من خلال نشر كلمة الله وتعاليم يسوع المسيح، لتتاح لكل إنسان فرصة معرفة الله
+من خلال فهم كلمته المقدسة ومن خلال النمو في علاقة حقيقية مع الله المخلص المانح للحياة الأبدية. ‎قناة الكرمة تؤمن بجميع تعاليم الرب يسوع المسيح وبكلمته الحية المغيّرة العاملة بالروح القدس في العالم وفي الكنيسة بكل طوائفها في كل مكان." />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label  Text="" FontSize="14" LineHeight="10" >
+                <Label.FormattedText>
+                    <FormattedString >
+                        <Span LineHeight="1.2" Text="قناة الكرمة" FontAttributes="Bold" TextColor="#910319" />
+                        <Span Text=' ليس لها اتجاهات سياسية أو انتماءات مذهبية أو ميول طائفية، بل تصلي لأجل كل من هم في منصب.'/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label  Text="" FontSize="14" LineHeight="10" >
+                <Label.FormattedText>
+                    <FormattedString >
+                        <Span LineHeight="1.2" Text="قناة الكرمة" FontAttributes="Bold" TextColor="#910319" />
+                        <Span Text=' قناة مجانية لا تهدف للربح المادي، تبث على مدار اليوم من خلال أقمار صناعية يغطي بثها قارة أمريكا الشمالية والشرق الأوسط وأوروبا، كما يمكن استقبال بث القناة على الإنترنت أو الهاتف المحمول.  تعمل قناة الكرمة بشكل متواصل لتصل رسالة الإنجيل إلى الملايين، الأمر الذي يحمّل القناة أعباء مالية هائلة تتصاعد باستمرار، لكننا بفضل صلواتكم وتشجيعكم نثق ان الله سيكمل العمل وسيسدد كل احتياج من خلال تبرعاتكم و تقدماتكم الدورية.'/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label> 
+            <Label  Text="" FontSize="14" LineHeight="10" >
+                <Label.FormattedText>
+                    <FormattedString >
+                        <Span LineHeight="1.2" Text="تقدم " FontAttributes="Bold" TextColor="#910319" />
+                        <Span Text='قناة الكرمة برامج تخاطب مختلف الأعمار وتتناسب مع ثقافتنا العربية وتناقش حياتنا اليومية بمشاكلها المختلفة، كما تتناول العلاقات العائلية وكيفية التواصل بين أفراد العائلة مع إرشاد لكيفية تطبيق كلمة الله في حياتنا العملية اليومية من خلال برامج الحوار والتسبيح والدراما والبث المباشر والتعليم الكتابي، كما نسعى لتوعية الآباء والأمهات للوصول إلى علاقات أسرية صحيّة وسليمة.'/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label  Text="" FontSize="14" LineHeight="10" >
+                <Label.FormattedText>
+                    <FormattedString >
+                        <Span LineHeight="1.2" Text='"الَّذِي نُنَادِي بِهِ مُنْذِرِينَ كُلَّ انْسَانٍ، وَمُعَلِّمِينَ كُلَّ انْسَانٍ، بِكُلِّ حِكْمَةٍ، لِكَيْ نُحْضِرَ كُلَّ انْسَانٍ كَامِلاً فِي الْمَسِيحِ يَسُوعَ"' FontAttributes="Bold"  />
+                        <Span Text=' كولوسي 1:28'/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </StackLayout>
+        </ScrollView>
+
+</ContentPage>
